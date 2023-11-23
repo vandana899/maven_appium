@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-02T17:26:07 IST" name="Default suite" finished-at="2023-03-02T17:26:07 IST" duration-ms="146">
+    <groups>
+    </groups>
+    <test started-at="2023-03-02T17:26:07 IST" name="Default test" finished-at="2023-03-02T17:26:07 IST" duration-ms="146">
+      <class name="testng.demo">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:testng.demo@29e495ff]" started-at="2023-03-02T17:26:07 IST" name="beforesuite" finished-at="2023-03-02T17:26:07 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:testng.demo@29e495ff]" started-at="2023-03-02T17:26:07 IST" name="beforetest" finished-at="2023-03-02T17:26:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="apple()[pri:0, instance:testng.demo@29e495ff]" started-at="2023-03-02T17:26:07 IST" name="apple" finished-at="2023-03-02T17:26:07 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+        <test-method signature="cherry()[pri:1, instance:testng.demo@29e495ff]" started-at="2023-03-02T17:26:07 IST" name="cherry" finished-at="2023-03-02T17:26:07 IST" depends-on-methods="testng.demo.apple" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cherry -->
+        <test-method signature="mango()[pri:2, instance:testng.demo@29e495ff]" started-at="2023-03-02T17:26:07 IST" name="mango" finished-at="2023-03-02T17:26:07 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mango -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:testng.demo@29e495ff]" started-at="2023-03-02T17:26:07 IST" name="aftertest" finished-at="2023-03-02T17:26:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testng.demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
